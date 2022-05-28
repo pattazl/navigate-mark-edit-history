@@ -35,42 +35,43 @@
         "navigateEditHistory.maxHistorySize": {
           "type": "number",
           "default": 20,
-          "description": "Maximum number of entries for the edits history."
+          "description": "%navigateEditHistory.maxHistorySize%"
         },
         "navigateEditHistory.centerOnReveal": {
           "type": "boolean",
           "default": true,
-          "description": "When navigating to an edit outside the view, should we always put the edit in the center of the screen?"
+          "description": "%navigateEditHistory.centerOnReveal%"
         },
         "navigateEditHistory.groupEditsWithinLines": {
           "type": "number",
           "default": 1,
-          "description": "Group edits if they are within a certain amount of lines from each other."
+          "description": "%navigateEditHistory.groupEditsWithinLines%"
         },
         "navigateEditHistory.logDebug": {
           "type": "boolean",
           "default": false,
-          "description": "Log a bunch of stuff to the console. Use if submitting a bug report."
+          "description": "%navigateEditHistory.logDebug%"
         },
         "navigateEditHistory.topStackWhenQuickPickSelect": {
           "type": "boolean",
           "default": false,
-          "description": "Move edit to top of stack on quick pick select."
+          "description": "%navigateEditHistory.topStackWhenQuickPickSelect%"
         },
         "navigateEditHistory.topStackWhenMove": {
           "type": "boolean",
           "default": false,
-          "description": "Move edit to top of stack on cursor position change."
+          "description": "%navigateEditHistory.topStackWhenMove%"
         },
         "navigateEditHistory.filterOnPathInEditList": {
           "type": "boolean",
           "default": false,
-          "description": "When filtering the edit list, also match on the file path."
+          "description": "%navigateEditHistory.filterOnPathInEditList%"
         },
         "navigateEditHistory.markerStyle": {
           "type": "string",
           "default": "leftRect",
           "enum": [
+            "none",
             "leftRect",
             "leftDash",
             "leftDot",
@@ -81,37 +82,38 @@
             "custom"
           ],
           "markdownEnumDescriptions": [
-            "The Line on the left",
-            "The dash on the left",
-            "The dot on the left",
-            "The dot on the bottom",
-            "Set background color",
-            "SVG rectangle on the left, the key gutterIconPathExt support relative/absolute",
-            "SVG triangle on the left, the key gutterIconPathExt support relative/absolute",
-            "Set your own style by marker JSONCustom"
+            "%navigateEditHistory.markerStyleEnum0%",
+            "%navigateEditHistory.markerStyleEnum1%",
+            "%navigateEditHistory.markerStyleEnum2%",
+            "%navigateEditHistory.markerStyleEnum3%",
+            "%navigateEditHistory.markerStyleEnum4%",
+            "%navigateEditHistory.markerStyleEnum5%",
+            "%navigateEditHistory.markerStyleEnum6%",
+            "%navigateEditHistory.markerStyleEnum7%",
+            "%navigateEditHistory.markerStyleEnum8%"
           ],
-          "markdownDescription": "Marker Style, you can define JSON `#navigateEditHistory.markerJSONCustom#` by yourself, SVG maybe has conflict with breakpoint [Issue](https://github.com/Microsoft/vscode/issues/5923) "
+          "markdownDescription": "%navigateEditHistory.markerStyle%"
         },
         "navigateEditHistory.markerColor": {
           "type": "string",
           "default": "#FF00FF99",
-          "markdownDescription": "Such as #FF00FF99, not worked in SVG, you can define JSON `#navigateEditHistory.markerJSONCustom#` by yourself, see the [theme-color](https://code.visualstudio.com/api/references/theme-color)"
+          "markdownDescription": "%navigateEditHistory.markerColor%"
         },
         "navigateEditHistory.markerJSON": {
           "type": "object",
           "default": {},
           "readOnly": true,
-          "markdownDescription": "Current marker style's JSON, it is readonly and for custom reference, custom key(gutterIconPathExt) support relative/absolute SVG path"
+          "markdownDescription": "%navigateEditHistory.markerJSON%"
         },
         "navigateEditHistory.markerJSONCustom": {
           "type": "object",
           "default": {},
-          "markdownDescription": "The custom marker style's JSON, see the `#navigateEditHistory.markerJSON#` and [DecorationRenderOptions](https://code.visualstudio.com/api/references/vscode-api#DecorationRenderOptions)"
+          "markdownDescription": "%navigateEditHistory.markerJSONCustom%"
         },
         "navigateEditHistory.markerWholeLine": {
           "type": "boolean",
           "default": false,
-          "markdownDescription": "Whethe marker the whole line, you can define JSON `#navigateEditHistory.markerJSON#` by yourself."
+          "markdownDescription": "%navigateEditHistory.markerWholeLine%"
         }
       }
     },
@@ -202,6 +204,13 @@
     "eslint": "8.7.0",
     "eslint-config-prettier": "8.3.0",
     "glob": "7.2.0",
+    "gulp": "^4.0.2",
+    "del": "^6.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "event-stream": "3.3.5",
+    "vscode-nls-dev": "^4.0.0",
     "husky": "7.0.4",
     "lint-staged": "12.3.1",
     "mocha": "9.1.4",
@@ -212,5 +221,6 @@
     "vscode-test": "1.6.1",
     "webpack": "5.67.0",
     "webpack-cli": "4.9.1"
-  }
+  },
+  "dependencies": {}
 }
