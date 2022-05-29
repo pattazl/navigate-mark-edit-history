@@ -412,12 +412,17 @@ export function activate(context: vscode.ExtensionContext) {
   const saveEdits = (): void => {
     context.workspaceState.update('editList', editList)
   }
-  const clearEdits = (): void => {
-    editList = []
+  const clearEdits = (uri = ''): void => {
+    if (uri === '') {
+      editList = []
+    } else {
+      // remove the current file's edit
+      editList = editList.filter((e) => !isEqualEdit(e, e.line, uri))
+    }
     saveEdits()
   }
 
-  type Command = 'create' | 'remove' | 'toggle' | 'clear'
+  type Command = 'create' | 'remove' | 'toggle' | 'clear' | 'clearCurr'
 
   const runCommand = (command: Command) => {
     const editor = vscode.window.activeTextEditor
@@ -442,7 +447,9 @@ export function activate(context: vscode.ExtensionContext) {
       case 'clear':
         clearEdits()
         break
-
+      case 'clearCurr':
+        clearEdits(filepath)
+        break
       default:
         break
     }
@@ -490,6 +497,10 @@ export function activate(context: vscode.ExtensionContext) {
   const clearCommand = vscode.commands.registerCommand('navigateEditHistory.clearEdits', () =>
     runCommand('clear'),
   )
+  const clearCurrCommand = vscode.commands.registerCommand(
+    'navigateEditHistory.clearCurrEdits',
+    () => runCommand('clearCurr'),
+  )
 
   const onActiveTextEditorListener = vscode.window.onDidChangeActiveTextEditor(
     (editor) => {
@@ -514,6 +525,7 @@ export function activate(context: vscode.ExtensionContext) {
     removeEditAtCursorCommand,
     toggleEditAtCursorCommand,
     clearCommand,
+    clearCurrCommand,
     onDeleteListener,
     goToTopStackCommand,
     selectionDidChangeListener,

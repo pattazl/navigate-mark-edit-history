@@ -1,7 +1,7 @@
 {
-  "name": "navigate-marker-edit-history",
-  "displayName": "Navigate Marker Edit History",
-  "description": "Navigate and marker your edit history, it fork from vscode-navigate-edit-history .标记和跳转编辑过的位置，可自定义快捷键",
+  "name": "navigate-mark-edit-history",
+  "displayName": "Navigate Mark Edit History",
+  "description": "Navigate and mark your edit history(NEH), it fork from vscode-navigate-edit-history .标记和跳转编辑过的位置，可自定义快捷键",
   "version": "1.0.0",
   "publisher": "AustinYoung",
   "license": "MIT",
@@ -13,6 +13,7 @@
     "Other"
   ],
   "keywords": [
+    "NEH",
     "marker",
     "navigate",
     "edit",
@@ -158,6 +159,10 @@
       {
         "command": "navigateEditHistory.clearEdits",
         "title": "%navigateEditHistory.clearEdits%"
+      },
+      {
+        "command": "navigateEditHistory.clearCurrEdits",
+        "title": "%navigateEditHistory.clearCurrEdits%"
       }
     ],
     "keybindings": [
