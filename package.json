@@ -1,9 +1,9 @@
 {
-  "name": "vscode-navigate-edit-history",
-  "displayName": "Edit History Bookmarks",
-  "description": "Navigate your edit history with ease. Jump one step back with a keypress or view a list of all recent edits.",
-  "version": "1.6.0",
-  "publisher": "codeandstuff",
+  "name": "navigate-marker-edit-history",
+  "displayName": "Navigate Marker Edit History",
+  "description": "Navigate and marker your edit history, it fork from vscode-navigate-edit-history .标记和跳转编辑过的位置，可自定义快捷键",
+  "version": "1.0.0",
+  "publisher": "AustinYoung",
   "license": "MIT",
   "icon": "logo/icon.png",
   "engines": {
@@ -13,6 +13,7 @@
     "Other"
   ],
   "keywords": [
+    "marker",
     "navigate",
     "edit",
     "history",
@@ -21,7 +22,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/pgsandstrom/vscode-navigate-edit-history.git"
+    "url": "https://github.com/pattazl/vscode-navigate-edit-history/tree/my"
   },
   "activationEvents": [
     "*"
@@ -120,43 +121,43 @@
     "commands": [
       {
         "command": "navigateEditHistory.moveCursorToPreviousEdit",
-        "title": "Edits: Navigate back in edit history"
+        "title": "%navigateEditHistory.moveCursorToPreviousEdit%"
       },
       {
         "command": "navigateEditHistory.moveCursorToNextEdit",
-        "title": "Edits: Navigate forward in edit history"
+        "title": "%navigateEditHistory.moveCursorToNextEdit%"
       },
       {
         "command": "navigateEditHistory.moveCursorToPreviousEditInCurrentFile",
-        "title": "Edits: Navigate back in edit history in the current file"
+        "title": "%navigateEditHistory.moveCursorToPreviousEditInCurrentFile%"
       },
       {
         "command": "navigateEditHistory.moveCursorToNextEditInCurrentFile",
-        "title": "Edits: Navigate forward in edit history in the current file"
+        "title": "%navigateEditHistory.moveCursorToNextEditInCurrentFile%"
       },
       {
         "command": "navigateEditHistory.list",
-        "title": "Edits: List edit history in all files"
+        "title": "%navigateEditHistory.list%"
       },
       {
         "command": "navigateEditHistory.createEditAtCursor",
-        "title": "Edits: Create edit at cursor position (Moves edit to top of stack)"
+        "title": "%navigateEditHistory.createEditAtCursor%"
       },
       {
         "command": "navigateEditHistory.removeEditAtCursor",
-        "title": "Edits: Remove any edits on the current line"
+        "title": "%navigateEditHistory.removeEditAtCursor%"
       },
       {
         "command": "navigateEditHistory.toggleEditAtCursor",
-        "title": "Edits: Toggle any edits on the current line"
+        "title": "%navigateEditHistory.toggleEditAtCursor%"
       },
       {
         "command": "navigateEditHistory.moveCursorCancelNavigation",
-        "title": "Edtis: Cancel navigate back in edit history and return to starting position"
+        "title": "%navigateEditHistory.moveCursorCancelNavigation%"
       },
       {
         "command": "navigateEditHistory.clearEdits",
-        "title": "Edits: Clear All Edits"
+        "title": "%navigateEditHistory.clearEdits%"
       }
     ],
     "keybindings": [

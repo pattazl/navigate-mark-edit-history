@@ -19,5 +19,15 @@
   "navigateEditHistory.markerStyleEnum5": "改变背景色",
   "navigateEditHistory.markerStyleEnum6": "左侧使用块状SVG图, 可用键gutterIconPathExt自定义图片,支持相对和绝对路径",
   "navigateEditHistory.markerStyleEnum7": "左侧使用三角形SVG图, 可用键gutterIconPathExt自定义图片,支持相对和绝对路径",
-  "navigateEditHistory.markerStyleEnum8": "使用自定义JSON的实现样式"
+  "navigateEditHistory.markerStyleEnum8": "使用自定义JSON的实现样式",
+  "navigateEditHistory.moveCursorToPreviousEdit": "Edits: 跳转到前一个编辑处",
+  "navigateEditHistory.moveCursorToNextEdit": "Edits: 跳转到后一个编辑处",
+  "navigateEditHistory.moveCursorToPreviousEditInCurrentFile": "Edits: 当前文件中跳转到前一个编辑处",
+  "navigateEditHistory.moveCursorToNextEditInCurrentFile": "Edits:  当前文件中跳转到后一个编辑处",
+  "navigateEditHistory.list": "Edits: 列出全部编辑处",
+  "navigateEditHistory.createEditAtCursor": "Edits: 当前光标位置创建编辑并登记到队列开头",
+  "navigateEditHistory.removeEditAtCursor": "Edits: 清除当前编辑记录",
+  "navigateEditHistory.toggleEditAtCursor": "Edits: 切换到当前编辑记录",
+  "navigateEditHistory.moveCursorCancelNavigation": "Edtis: 取消编辑位置跳转，退回到原先位置",
+  "navigateEditHistory.clearEdits": "Edits: 清除全部编辑处"
 }
