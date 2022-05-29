@@ -1,5 +1,6 @@
 import * as vscode from 'vscode'
 import { getConfig, reloadConfig } from './config'
+import { getLang } from './lang'
 import { triggerDecorations, reloadStyleConfig } from './markerStyle'
 
 interface Edit {
@@ -368,7 +369,7 @@ export function activate(context: vscode.ExtensionContext) {
       .reverse()
 
     const options: vscode.QuickPickOptions = {
-      placeHolder: 'Type a line number or a piece of code to navigate to',
+      placeHolder: getLang('QuickPic'),
       matchOnDescription: true,
       matchOnDetail: getConfig().filterOnPathInEditList,
       onDidSelectItem: (item) => {
@@ -448,6 +449,7 @@ export function activate(context: vscode.ExtensionContext) {
 
     currentStepsBack = 0
     saveEdits()
+    triggerDecorations(context, editList)
   }
 
   const gotoPreviousEditCommand = vscode.commands.registerCommand(
