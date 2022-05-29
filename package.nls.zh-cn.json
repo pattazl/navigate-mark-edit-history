@@ -11,7 +11,6 @@
   "navigateEditHistory.markerJSON": "当前生效的JSON,只读,供自定义JSON参考, 自定义键(gutterIconPathExt) 支持SVG图的相对和绝对路径",
   "navigateEditHistory.markerJSONCustom": "自定义样式的JSON配置,参考当前样式的JSON `#navigateEditHistory.markerJSON#` 以及官方文档 [DecorationRenderOptions](https://code.visualstudio.com/api/references/vscode-api#DecorationRenderOptions)",
   "navigateEditHistory.markerWholeLine": "是否标记整行,可在自定义中设置 `#navigateEditHistory.markerJSONCustom#` ",
-  "navigateEditHistory.markerStyleEnum0": "不标记",
   "navigateEditHistory.markerStyleEnum1": "左侧竖线",
   "navigateEditHistory.markerStyleEnum2": "左侧虚线",
   "navigateEditHistory.markerStyleEnum3": "左侧点线",

@@ -1,6 +1,12 @@
 # Change Log
 
-All notable changes to the "vscode-navigate-edit-history" extension will be documented in this file.
+# navigate-mark-edit-history
+
+## 1.0.0
+
+Fork [Edit History Bookmarks](https://github.com/pgsandstrom/vscode-navigate-edit-history) 1.6.0 and set the new extension and version.
+
+add multi-lang(Chinese) support and marker style function
 
 ## 1.6.0
 
