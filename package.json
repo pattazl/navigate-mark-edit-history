@@ -2,7 +2,7 @@
   "name": "navigate-mark-edit-history",
   "displayName": "Navigate & Mark Edit History",
   "description": "Navigate and mark your edit history(NEH), it fork from vscode-navigate-edit-history .标记和跳转编辑过的位置，可自定义快捷键",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "publisher": "AustinYoung",
   "license": "MIT",
   "icon": "logo/icon.png",
@@ -23,7 +23,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/pattazl/navigate-marker-edit-history/"
+    "url": "https://github.com/pattazl/navigate-mark-edit-history/"
   },
   "activationEvents": [
     "*"

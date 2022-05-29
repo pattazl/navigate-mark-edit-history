@@ -2,7 +2,7 @@
 
 A Visual Studio Extension for quick navigation of edits/markers (NEH) . This is a fork and derivative of [Edit History Bookmarks](https://github.com/pgsandstrom/vscode-navigate-edit-history) , add multi-lang(Chinese) support , marker style , clear all in current file and so on.
 
-[中文文档 Gitee ](https://gitee.com/pattazl/navigate-mark-edit-history) [中文文档 Github](https://github.com/pattazl/navigate-mark-edit-history/blob/main/README_ZH.md)
+ [中文文档 Github](https://github.com/pattazl/navigate-mark-edit-history/blob/main/README_ZH.md)  [中文文档 Gitee ](https://gitee.com/pattazl/navigate-mark-edit-history)
 
 ## Features
 
@@ -17,7 +17,8 @@ A Visual Studio Extension for quick navigation of edits/markers (NEH) . This is 
 ## Some Marker Style
 
 You can define own style by current style JSON
-![img](https://raw.githubusercontent.com/pattazl/navigate-mark-edit-history/main/img/4.png) ![img](https://raw.githubusercontent.com/pattazl/navigate-mark-edit-history/main/img/5.png) ![img](https://raw.githubusercontent.com/pattazl/navigate-mark-edit-history/main/img/1.png) ![img](https://raw.githubusercontent.com/pattazl/navigate-mark-edit-history/main/img/2.png) ![img](https://raw.githubusercontent.com/pattazl/navigate-mark-edit-history/main/img/3.png)
+
+![img](https://raw.githubusercontent.com/pattazl/navigate-mark-edit-history/main/img/4.png)![img](https://raw.githubusercontent.com/pattazl/navigate-mark-edit-history/main/img/5.png)![img](https://raw.githubusercontent.com/pattazl/navigate-mark-edit-history/main/img/1.png)![img](https://raw.githubusercontent.com/pattazl/navigate-mark-edit-history/main/img/2.png)![img](https://raw.githubusercontent.com/pattazl/navigate-mark-edit-history/main/img/3.png)
 
 ## Extension Settings
 

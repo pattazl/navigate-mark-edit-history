@@ -2,7 +2,7 @@
 
 # navigate-mark-edit-history
 
-## 1.0.1
+## 1.0.1 & 1.0.2
 
 Update readme, git address and remove useless file
 
