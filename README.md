@@ -17,7 +17,7 @@ A Visual Studio Extension for quick navigation of edits/markers (NEH) . This is 
 ## Some Marker Style
 
 You can define own style by current style JSON
-![img](img%5C4.png) ![img](img%5C5.png) ![img](img%5C1.png) ![img](img%5C2.png) ![img](img%5C3.png)
+![img](https://raw.githubusercontent.com/pattazl/navigate-mark-edit-history/main/img/4.png) ![img](https://raw.githubusercontent.com/pattazl/navigate-mark-edit-history/main/img/5.png) ![img](https://raw.githubusercontent.com/pattazl/navigate-mark-edit-history/main/img/1.png) ![img](https://raw.githubusercontent.com/pattazl/navigate-mark-edit-history/main/img/2.png) ![img](https://raw.githubusercontent.com/pattazl/navigate-mark-edit-history/main/img/3.png)
 
 ## Extension Settings
 
@@ -34,7 +34,7 @@ This extension contributes the following commands (Set in Keyboard Preferences):
 - `navigateEditHistory.moveCursorCancelNavigation`: NEH: Navigate back to beginning of stack before any jumps
 - `navigateEditHistory.clearEdits`: NEH: Clear All Edits
 - `navigateEditHistory.clearCurrEdits`: NEH: Clear All Edits in the current file
-  ![](img%5Ccommand.png)
+  ![](https://raw.githubusercontent.com/pattazl/navigate-mark-edit-history/main/img/command.png)
 
 This extension contributes the following settings (Set in User Preferences):
 
@@ -58,8 +58,8 @@ This extension contributes the following settings (Set in User Preferences):
 - `navigateEditHistory.markerStyleEnum6` : SVG rectangle on the left, the key gutterIconPathExt support relative/absolute,
 - `navigateEditHistory.markerStyleEnum7` : SVG triangle on the left, the key gutterIconPathExt support relative/absolute,
 - `navigateEditHistory.markerStyleEnum8` : Set your own style by marker JSONCustom,
-  ![](img%5Cconfig2.png)
-  ![](img%5Cconfig.png)
+  ![](https://raw.githubusercontent.com/pattazl/navigate-mark-edit-history/main/img/config2.png)
+  ![](https://raw.githubusercontent.com/pattazl/navigate-mark-edit-history/main/img/config.png)
 
 ## Known Issues
 

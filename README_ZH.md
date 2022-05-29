@@ -14,7 +14,7 @@ VSCode 中编辑位置(曾经修改过的地方)进行导航的插件，简称 (
 ## 标记样式举例
 
 你可通过参考当前样式 JSON 编写自定义 JSON 来定义自己的样式
-![img](img%5C4.png) ![img](img%5C5.png) ![img](img%5C1.png) ![img](img%5C2.png) ![img](img%5C3.png)
+![img](https://raw.githubusercontent.com/pattazl/navigate-mark-edit-history/main/img/4.png) ![img](https://raw.githubusercontent.com/pattazl/navigate-mark-edit-history/main/img/5.png) ![img](https://raw.githubusercontent.com/pattazl/navigate-mark-edit-history/main/img/1.png) ![img](https://raw.githubusercontent.com/pattazl/navigate-mark-edit-history/main/img/2.png) ![img](https://raw.githubusercontent.com/pattazl/navigate-mark-edit-history/main/img/3.png)
 
 ## 扩展设置
 
@@ -30,7 +30,7 @@ VSCode 中编辑位置(曾经修改过的地方)进行导航的插件，简称 (
 - `navigateEditHistory.toggleEditAtCursor`：NEH: 对当前行进行编辑记录的新增或删除
 - `navigateEditHistory.moveCursorCancelNavigation`：NEH: 取消编辑位置跳转，退回到原先位置
 - `navigateEditHistory.clearEdits`：NEH: 清除全部编辑记录
-- `navigateEditHistory.clearCurrEdits`：NEH: 清除当前文件的全部编辑记录![](img%5Ccommand.png)
+- `navigateEditHistory.clearCurrEdits`：NEH: 清除当前文件的全部编辑记录![](https://raw.githubusercontent.com/pattazl/navigate-mark-edit-history/main/img/command.png)
 
 如下为配置中的相关设置，可自定义配置:
 
@@ -45,8 +45,8 @@ VSCode 中编辑位置(曾经修改过的地方)进行导航的插件，简称 (
 - `navigateEditHistory.markerColor`：标记颜色,比如 #FF00FF99,但无法改变 SVG 中颜色, 可在`#navigateEditHistory.markerJSONCustom#`中自定义, 颜色资料见 [theme-color](https://code.visualstudio.com/api/references/theme-color)
 - `navigateEditHistory.markerJSON`：当前生效的 JSON,只读,供自定义 JSON 参考, 自定义键(gutterIconPathExt) 支持 SVG 图的相对和绝对路径
 - `navigateEditHistory.markerJSONCustom`：自定义样式的 JSON 配置,参考当前样式的 JSON `#navigateEditHistory.markerJSON#` 以及官方文档 [DecorationRenderOptions](https://code.visualstudio.com/api/references/vscode-api#DecorationRenderOptions)
-- `navigateEditHistory.markerWholeLine`：是否标记整行,可在自定义中设置 `#navigateEditHistory.markerJSONCustom#` ![](img%5Cconfig2.png)
-  ![](img%5Cconfig.png)
+- `navigateEditHistory.markerWholeLine`：是否标记整行,可在自定义中设置 `#navigateEditHistory.markerJSONCustom#` ![](https://raw.githubusercontent.com/pattazl/navigate-mark-edit-history/main/img/config2.png)
+  ![](https://raw.githubusercontent.com/pattazl/navigate-mark-edit-history/main/img/config.png)
 
 ## 注意
 

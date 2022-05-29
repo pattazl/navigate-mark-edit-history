@@ -70,12 +70,12 @@ function generateJSON(conf: Config): MyDecorationRenderOptions {
     },
     // eslint-disable-next-line @typescript-eslint/naming-convention
     'SVG rectangle': {
-      gutterIconPathExt: './img/rectangle.svg', // defined myself for relative path
+      gutterIconPathExt: './svg/rectangle.svg', // defined myself for relative path
       gutterIconSize: 'auto',
     },
     // eslint-disable-next-line @typescript-eslint/naming-convention
     'SVG triangle': {
-      gutterIconPathExt: './img/triangle.svg', // defined myself for relative path
+      gutterIconPathExt: './svg/triangle.svg', // defined myself for relative path
       gutterIconSize: 'auto',
     },
     custom: <object>conf.markerJSONCustom,

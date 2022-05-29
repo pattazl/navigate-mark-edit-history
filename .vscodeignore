@@ -11,3 +11,9 @@ vsc-extension-quickstart.md
 out/test/**
 others/**
 README_ZH.md
+tsconfig.json
+tsconfig.eslint.json
+*.js
+*.sh
+.husky/**
+img/**
