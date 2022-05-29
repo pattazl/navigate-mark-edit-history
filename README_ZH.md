@@ -1,6 +1,6 @@
 # Navigate and mark Edit History
 
-VSCode 中编辑位置(曾经修改过的地方)进行导航的插件，简称 (NEH) . 根据插件 [Edit History Bookmarks](https://github.com/pgsandstrom/vscode-navigate-edit-history) 进行 fork 和修改，主要新增多语言支持，并对编辑位置增加自定义标记功能
+VSCode 中编辑位置(曾经修改过的地方)进行导航的插件，简称 (NEH) . 根据插件 [Edit History Bookmarks](https://github.com/pgsandstrom/vscode-navigate-edit-history) 进行 fork 和修改，主要新增多语言支持，并对编辑位置增加自定义标记，清除当前文件所有标记等功能
 
 ## 特色
 
@@ -41,8 +41,8 @@ VSCode 中编辑位置(曾经修改过的地方)进行导航的插件，简称 (
 - `navigateEditHistory.topStackWhenQuickPickSelect`：在列表选择时，将选择的内容移动到列表顶部
 - `navigateEditHistory.topStackWhenMove`：位置跳转后，光标移动后，将对应的编辑位置移到列表顶部
 - `navigateEditHistory.filterOnPathInEditList`：展示列表清单时可根据文件路径过滤
-- `navigateEditHistory.markerStyle`：标记样式,可在`#navigateEditHistory.markerJSONCustom#`中自定义, 如果使用 SVG 将可能和断点功能冲突,官方[Issue](https://github.com/Microsoft/vscode/issues/5923)
-- `navigateEditHistory.markerColor`：标记颜色,比如 #FF00FF99,但无法改变 SVG 中颜色, 可在`#navigateEditHistory.markerJSONCustom#`中自定义, 颜色资料见 [theme-color](https://code.visualstudio.com/api/references/theme-color)
+- `navigateEditHistory.markerStyle`：标记样式,可在 `#navigateEditHistory.markerJSONCustom#`中自定义, 如果使用 SVG 将可能和断点功能冲突,官方[Issue](https://github.com/Microsoft/vscode/issues/5923)
+- `navigateEditHistory.markerColor`：标记颜色,比如 #FF00FF99,但无法改变 SVG 中颜色, 可在 `#navigateEditHistory.markerJSONCustom#`中自定义, 颜色资料见 [theme-color](https://code.visualstudio.com/api/references/theme-color)
 - `navigateEditHistory.markerJSON`：当前生效的 JSON,只读,供自定义 JSON 参考, 自定义键(gutterIconPathExt) 支持 SVG 图的相对和绝对路径
 - `navigateEditHistory.markerJSONCustom`：自定义样式的 JSON 配置,参考当前样式的 JSON `#navigateEditHistory.markerJSON#` 以及官方文档 [DecorationRenderOptions](https://code.visualstudio.com/api/references/vscode-api#DecorationRenderOptions)
 - `navigateEditHistory.markerWholeLine`：是否标记整行,可在自定义中设置 `#navigateEditHistory.markerJSONCustom#` ![](https://raw.githubusercontent.com/pattazl/navigate-mark-edit-history/main/img/config2.png)

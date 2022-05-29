@@ -2,6 +2,10 @@
 
 # navigate-mark-edit-history
 
+## 1.0.1
+
+Update readme, git address and remove useless file
+
 ## 1.0.0
 
 Fork [Edit History Bookmarks](https://github.com/pgsandstrom/vscode-navigate-edit-history) 1.6.0 and set the new extension and version.

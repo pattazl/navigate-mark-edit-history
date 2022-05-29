@@ -1,6 +1,6 @@
 # Navigate and mark Edit History
 
-A Visual Studio Extension for quick navigation of edits/markers (NEH) . This is a fork and derivative of [Edit History Bookmarks](https://github.com/pgsandstrom/vscode-navigate-edit-history) , add multi-lang(Chinese) support and marker style function
+A Visual Studio Extension for quick navigation of edits/markers (NEH) . This is a fork and derivative of [Edit History Bookmarks](https://github.com/pgsandstrom/vscode-navigate-edit-history) , add multi-lang(Chinese) support , marker style , clear all in current file and so on.
 
 [中文文档 Gitee ](https://gitee.com/pattazl/navigate-mark-edit-history) [中文文档 Github](https://github.com/pattazl/navigate-mark-edit-history/blob/main/README_ZH.md)
 
